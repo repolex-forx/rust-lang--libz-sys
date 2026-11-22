@@ -39,6 +39,100 @@
       ],
       "ast": [
         "aggregate/ast/c589ac52bdf9f735dfc2858487e9b1f33b40c5cd/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/c589ac52bdf9f735dfc2858487e9b1f33b40c5cd.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "libc",
+          "ecosystem": "CARGO",
+          "version": "0.2.43",
+          "githubOrg": "rust-lang",
+          "githubRepo": "libc",
+          "githubCommit": "6bdbf5dc937459bd10e6bc4dc52b0adbd8cf4358",
+          "githubTag": "0.2.43",
+          "githubUrl": "https://github.com/rust-lang/libc",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "pkg-config",
+          "ecosystem": "CARGO",
+          "version": "0.3.9",
+          "githubOrg": "rust-lang",
+          "githubRepo": "pkg-config-rs",
+          "githubCommit": "a493b0d7c93df68c94d1bad2a1f419389e52c0f5",
+          "githubTag": "0.3.9",
+          "githubUrl": "https://github.com/rust-lang/pkg-config-rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "cc",
+          "ecosystem": "CARGO",
+          "version": "1.0.98",
+          "githubOrg": "rust-lang",
+          "githubRepo": "cc-rs",
+          "githubCommit": "3ba23569a623074748a3030f382afd22483555df",
+          "githubTag": "1.0.98",
+          "githubUrl": "https://github.com/rust-lang/cc-rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "cmake",
+          "ecosystem": "CARGO",
+          "version": "0.1.50",
+          "githubOrg": "rust-lang",
+          "githubRepo": "cmake-rs",
+          "githubCommit": "3ddc3d505ef38ebec54b999110f9dd10b4465252",
+          "githubTag": "0.1.50",
+          "githubUrl": "https://github.com/rust-lang/cmake-rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "vcpkg",
+          "ecosystem": "CARGO",
+          "version": "0.2.11",
+          "githubOrg": "mcgoo",
+          "githubRepo": "vcpkg-rs",
+          "githubCommit": "9b0dc83c636b7dceafa2cc8d49252e57296e696b",
+          "githubTag": "vcpkg-rs-0.2.11",
+          "githubUrl": "https://github.com/mcgoo/vcpkg-rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "anyhow",
+          "ecosystem": "CARGO",
+          "version": "1.0.104",
+          "githubOrg": "dtolnay",
+          "githubRepo": "anyhow",
+          "githubCommit": "1dbe1862aae650423e3361fbd20b7d17c5109cc3",
+          "githubTag": "1.0.104",
+          "githubUrl": "https://github.com/dtolnay/anyhow",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anyhow-1.0.104/src/macros.rs"
+        },
+        {
+          "packageName": "tempfile",
+          "ecosystem": "CARGO",
+          "version": "3.27.0",
+          "githubOrg": "Stebalien",
+          "githubRepo": "tempfile",
+          "githubCommit": "5c8fa12eb584931b4f1bccfde87eb72fbfa7dc61",
+          "githubTag": "v3.27.0",
+          "githubUrl": "https://github.com/Stebalien/tempfile",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tempfile-3.27.0/src/dir/mod.rs"
+        },
+        {
+          "packageName": "ctest2",
+          "ecosystem": "CARGO",
+          "version": "0.4.10",
+          "githubOrg": "JohnTitor",
+          "githubRepo": "ctest2",
+          "githubCommit": "3b51e8e288b5d72d64e459c48262cbda94ea0cd9",
+          "githubTag": "v0.4.10",
+          "githubUrl": "https://github.com/JohnTitor/ctest2",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ctest2-0.4.10/src/lib.rs"
+        }
       ]
     }
   ],

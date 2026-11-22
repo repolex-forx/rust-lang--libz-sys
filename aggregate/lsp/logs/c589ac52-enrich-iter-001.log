@@ -1,0 +1,17 @@
+[2026-11-22T13:25:46Z] === ENRICH ITERATION 1 START | repo=rust-lang/libz-sys sha=c589ac52 ===
+[2026-11-22T13:25:46Z] [iter=1] PHASE START: enrich repo=rust-lang/libz-sys sha=c589ac52 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/c589ac52-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/c589ac52bdf9f735dfc2858487e9b1f33b40c5cd.nq.gz
+[2026-11-22T13:25:50Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=79 MB
+[2026-11-22T13:25:54Z] [iter=1] AST store loaded triples=73655 load_secs=4 mem_mb=180 MB
+[2026-11-22T13:25:54Z] [iter=1] Step 2: Finding LSP targets mem_mb=180 MB
+[2026-11-22T13:25:54Z] [iter=1] LSP targets found call_sites=810 imports=10 extends=0 implements=0 secs=0
+[2026-11-22T13:25:54Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=180 MB
+[2026-11-22T13:25:54Z] [iter=1] Position index built positions=4953 nodes_with_types=6174 secs=0 mem_mb=180 MB
+[2026-11-22T13:25:54Z] [iter=1] Step 3: Starting LSP resolution mem_mb=180 MB already_completed_types=[] already_completed_files=0
+[2026-11-22T13:25:54Z] [iter=1] Resolving target type target_type=call_site count=810
+[2026-11-22T13:26:21Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.6 files_done=0 resolved=0 errors=0 current=maint/src/main.rs
+[2026-11-22T13:26:43Z] [iter=1] Target type resolved target_type=call_site resolved=441 errors=0 secs=48 mem_mb=180 MB
+[2026-11-22T13:26:43Z] [iter=1] Resolving target type target_type=import_statement count=10
+[2026-11-22T13:26:50Z] [iter=1] Target type resolved target_type=import_statement resolved=7 errors=0 secs=8 mem_mb=180 MB
+[2026-11-22T13:27:05Z] [iter=1] Step 5: Writing final enrichment file triples=5943
+[2026-11-22T13:27:05Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/c589ac52bdf9f735dfc2858487e9b1f33b40c5cd.nq.gz size_kb=99
+[2026-11-22T13:27:05Z] [iter=1] PHASE END: enrich elapsed_s=79 elapsed_min=1.3 total_triples=5943
